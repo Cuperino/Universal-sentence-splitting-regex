@@ -1,4 +1,5 @@
 // Don't pick titles such as Dr. and Mrs.,
 // Don't pick accronyms,
 // Pick sentence's endings.
-(?![A-Z]..?\.)(?![A-Z]?\.)(\b\S+[.?!;؟。」]["'』]?)\s
+const detectSentenceEnding = /(?![A-Z]..?\.)(?![A-Z]?\.)(\S+[.?!;؟。」]["'』]?)\s+/g;
+const splitSentence = "$1\n";
