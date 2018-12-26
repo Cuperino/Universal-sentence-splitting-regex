@@ -2,4 +2,3 @@
 // Don't pick accronyms,
 // Pick sentence's endings.
 (?![A-Z]..?\.)(?![A-Z]?\.)(\b\S+[.?!;؟。」]["'』]?)\s
- 
